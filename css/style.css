@@ -1,0 +1,464 @@
+html,
+body {
+   margin: 0;
+}
+
+/* Banner */
+.banner {
+   background: url(../images/banner.jpg)no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   min-height: 768px;
+   position: relative;
+}
+.header {
+   width: 100%;
+   float: right;
+   position: relative;
+}
+.nav-navbar ul {
+   list-style-type: none;
+   margin: 0;
+   margin-top: 1.5em;
+   padding: 0;
+   position: relative;
+   top: 0;
+}
+.nav-navbar ul li {
+   float: left;
+   margin-right: 2.5em;
+}
+.nav-navbar ul li:last-child {
+   margin-right: auto;
+}
+.nav-navbar ul li a {
+   display: block;
+   color: rgb(85, 85, 85);
+   font-size: 13px;
+   font-weight: 700;
+   text-align: center;
+   padding: 0.5em 2em;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+.nav-navbar ul li a:hover:not(.active),
+.nav-navbar ul li a.active {
+   border-bottom: 2px solid rgb(71, 207, 115);
+}
+.header-content {
+   width: 38%;
+   margin-top: 15em;
+   position: absolute;
+   right: 0;
+}
+.header-content span {
+   color: rgb(71, 207, 115);
+}
+.header-content h1 {
+   font-size: 55px;
+   color: white;
+   font-weight: 400;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+}
+.header-content h3 {
+   font-size: 30px;
+   font-weight: 400;
+   color: white;
+   letter-spacing: 1px;
+}
+.header-content h5 {
+   display: block;
+   margin-top: 30px;
+   padding: 3px 20px 6px;
+   background-color: rgba(0, 0, 0, 0.3);
+   color: rgb(71, 207, 115);
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: 4px;
+}
+.hr-line {
+   width: 52%;
+   float: right;
+   border-top: 2px solid rgb(71, 207, 115);
+}
+.header-content a.about-me {
+   font-size: 17px;
+   color: white;
+   letter-spacing: 2px;
+   float: right;
+}
+.header-content a.about-me:hover {
+   color: rgb(71, 207, 115);
+   text-decoration: none;
+}
+.about {
+   width: 100%;
+   margin: 5em 0;
+}
+.about-header {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+/* .about-header h1 {
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+} */
+.about-header h3 {
+   margin-top: 30px;
+   margin-bottom: 15px;
+   font-weight: bold;
+   text-transform: capitalize;
+   color: rgb(71, 207, 115);
+}
+.about-content {
+   width: 100%;
+   margin: 2em 0;
+}
+.profile-img {
+   width: 25%;
+   height: 40em;
+   text-align: center;
+   margin-bottom: 3em;
+   overflow: hidden;
+   float: left;
+}
+.profile-detail {
+   width: 70%;
+   margin-left: 30px;
+   margin-bottom: 3em;
+   border: 20px solid rgb(0, 0, 0);
+   float: left;
+   position: relative;
+}
+.detail-content {
+   width: 105%;
+   background-color: rgb(71, 207, 115);
+   box-shadow: -3px 6px 15px rgb(100, 100, 100);
+   padding: 50px;
+   position: relative;
+   left: 25px;
+   top: 25px;
+}
+.detail-content ul {
+   list-style-type: none;
+   margin-top: 1em;
+   position: relative;
+   left: 0;
+}
+.detail-content ul li {
+	display: block;
+   color: white;
+   margin-bottom: 1em;
+   text-shadow: 1px 1px 1px rgb(30, 30, 30);
+}
+.detail-content ul li:last-child {
+	margin-bottom: 0!important;
+}
+.detail-content ul li span {
+   width: 7em;
+	display: inline-block;
+	color: black;
+	text-shadow: none;
+	font-weight: 500;
+}
+.detail-content h1 {
+   margin-top: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.detail-content span {
+   font-weight: bold;
+   color: white;
+   text-transform: uppercase;
+}
+.detail-content p {
+   text-indent: 10%;
+   line-height: 2;
+   color: rgb(50, 50, 50);
+}
+.detail-content a,
+.detail-content a:hover {
+   color: white;
+   text-shadow: 1px 1px 1px rgb(30, 30, 30);
+}
+.detail-content a.contact-me {
+   padding: 12px 18px;
+   font-size: 15px;
+   text-transform: none;
+   font-weight: normal;
+   color: rgb(255, 255, 255);
+   background-color: rgb(0, 0, 0);
+   position: relative;
+   top: -8px;
+}
+.detail-content a.contact-me:hover {
+   background-color: rgba(255, 0, 0);
+   text-decoration: none;
+   font-weight: normal;
+   text-shadow: 1px 1px 1px rgb(30, 30, 30);
+}
+.education {
+   width: 100%;
+   height: 444px;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   float: left;
+}
+.edu-img {
+   width: 58%;
+   background: url(../images/edu.jpg)no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	min-height: 444px;
+   float: left;
+}
+.edu-content {
+   width: 42%;
+   padding: 3em 2em;
+   float: left;
+}
+.edu-detail {
+   width: 100%;
+   height: 300px;
+   margin-top: 1.5em;
+   padding: 2em;
+   overflow: scroll;
+}
+.edu-detail-year {
+   width: 35%;
+   text-align: center;
+   float: left;
+}
+.edu-detail-year h6 {
+   font-size: 18px;
+   text-align: center;
+   letter-spacing: 1px;
+   margin-right: 1em;
+   padding: 2px;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 20px;
+   box-shadow: -2px 2px 0 rgb(71, 207, 115);
+}
+.edu-detail-content {
+   width: 65%;
+   float: left;
+}
+.edu-detail-content h5 {
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+.work-exp {
+   width: 100%;
+   height: 444px;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   top: 0;
+   float: left;
+}
+.exp-img {
+   width: 58%;
+   background: url(../images/exp.jpg)no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	min-height: 444px;
+   float: right;
+}
+.exp-content {
+   width: 42%;
+   padding: 3em 2em;
+   float: right;
+}
+.exp-detail {
+   width: 100%;
+   height: 300px;
+   margin-top: 1.5em;
+   padding: 2em;
+   overflow: scroll;
+}
+.exp-detail-year {
+   width: 35%;
+   float: left;
+}
+.exp-detail-year h6 {
+   font-size: 18px;
+   text-align: center;
+   letter-spacing: 1px;
+   margin-right: 1em;
+   padding: 2px 5px;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 20px;
+   box-shadow: -2px 2px 0 rgb(71, 207, 115);
+}
+.exp-detail-content {
+   width: 65%;
+   float: left;
+}
+.exp-detail-content h5 {
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+.skills {
+   width: 100%;
+   height: 500px;
+   margin: 5em 0;
+   position: relative;
+}
+
+.top-botton {
+   position: fixed;
+   right: 50px;
+   bottom: 50px;
+}
+
+h1.title-menu {
+   font-weight: 620;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+ul li,
+p {
+   color: rgb(100, 100, 100);
+   line-height: 2;
+}
+
+@media screen and (max-width: 1200px) {
+   /* .nav-navbar ul li {
+      width: 16%;
+   } */
+   .header-content {
+      width: 46%;
+   }
+   .profile-img {
+      width: 35%;
+   }
+   .profile-detail {
+      width: 60%;
+   }
+   .edu-detail-year {
+      width: 45%;
+   }
+   .edu-detail-content {
+      width: 55%;
+   }
+   .exp-detail-year {
+      width: 45%;
+   }
+   .exp-detail-content {
+      width: 55%;
+   }
+
+   h1.title-menu {
+      font-size: 2em;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   /* .nav-navbar ul {
+      list-style-type: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      top: 0;
+   }
+   .nav-navbar ul li {
+      float: left;
+      width: 30%;
+      margin-right: auto;
+   }
+   .nav-navbar ul li:last-child {
+      margin-right: auto;
+   }
+   .nav-navbar ul li a {
+      display: block;
+      color: rgb(85, 85, 85);
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center;
+      padding: 0.5em 1.5em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+   }
+   .nav-navbar ul li a:hover:not(.active),
+   .nav-navbar ul li a.active {
+      border-bottom: 2px solid rgb(71, 207, 115);
+   } */
+   .nav-navbar ul li a {
+      padding: 0.5em 1.5em;
+   }
+   .header-content {
+      width: 61%;
+   }
+   .profile-img {
+      width: 60%;
+      margin: auto;
+      height: 100%;
+      float: none;
+   }
+   .profile-detail {
+      width: 100%;
+      margin: auto;
+      float: none;
+   }
+   .education {
+      height: 1000px;
+   }
+   .edu-img {
+      width: 100%;
+   }
+   .edu-content {
+      width: 100%;
+   }
+   .edu-detail {
+      height: 370px;
+   }
+   .edu-detail-year {
+      width: 20%;
+      text-align: left;
+      float: none;
+   }
+   .edu-detail-content {
+      width: 100%;
+      float: none;
+   }
+   .work-experience {
+      height: 1000px;
+   }
+   .exp-img {
+      width: 100%;
+   }
+   .exp-content {
+      width: 100%;
+   }
+   .exp-detail {
+      height: 370px;
+   }
+   .exp-detail-year {
+      width: 20%;
+      text-align: left;
+      float: none;
+   }
+   .exp-detail-content {
+      width: 100%;
+      float: none;
+   }
+}
